@@ -199,6 +199,24 @@ img {
     padding: 120px 0;
 }
 
+.section-four-ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.four-li{
+    width: calc((100% - 72px) / 4)
+}
+
+.apps {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
 .four-h {
     font-size: 20px;
     font-weight: 500;
@@ -216,6 +234,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .four-p {
