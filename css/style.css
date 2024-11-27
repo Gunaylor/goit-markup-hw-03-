@@ -127,7 +127,20 @@ img {
 .order-bt:focus {
     background-color: #404bbf;
 }
-
+/* Section Two */
+.section-two {
+    padding: 120px 0;
+}
+.section-two-ul{
+    display: flex;
+    gap: 24px;
+}
+.sections_li{
+    width: calc((100% - 72px) / 4);
+}
+.section-h-two{
+    margin-bottom: 8px;
+}
 /* Section Three */
 .section-three {
     background-color: #f4f4fd;
