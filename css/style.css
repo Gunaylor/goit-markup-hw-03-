@@ -1,10 +1,37 @@
+
+/* Genel Ayarlar */
 body {
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+
+img {
+    display: block;
+}
+
+/* Header ve Navigation Bar */
+.top-nav_bar {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div-header {
+    display: flex;
+}
+
+.container {
+    padding: 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.studio-logo {
+    display: flex;
+    align-items: center;
+}
+
 .nav-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -13,41 +40,59 @@ body {
     color: #4d5ae5;
     margin-right: 76px;
 }
+
 .studio-s {
     color: #2e2f42;
     letter-spacing: 0.03em;
 }
-.studio-li{
-    font-weight:500;
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list li:first-child {
+    padding: 24px 0;
+}
+
+.studio-li {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
-.studio-li:hover{
-    color:#404bbf
+
+.studio-li:hover,
+.studio-li:focus {
+    color: #404bbf;
 }
-.studio-li:focus{
-    color:#404bbf
+
+/* İletişim Bilgileri */
+.nav-adress {
+    display: flex;
+    gap: 40px;
 }
-.address-c{
+
+.address-c {
     font-style: normal;
 }
-.adress-li{
+
+.adress-li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.adress-li:hover{
+
+.adress-li:hover,
+.adress-li:focus {
     color: #404bbf;
 }
-.adress-li:focus{
-    color: #404bbf;
-}
+
+/* Section One */
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0;
-
 }
 
 .h-one-class {
@@ -59,8 +104,9 @@ body {
     max-width: 496px;
 }
 
+/* Button */
 .order-bt {
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -71,31 +117,14 @@ body {
     display: block;
     min-width: 169px;
     height: 56px;
-    border: none;
-    border-radius: 4px;
-}
-e: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.sections_li p {
-    line-hei
-.order-bt:hover {
-    background-color: #404BBF;
-}
-
+.order-bt:hover,
 .order-bt:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
-.sections_li h3 {
-    font-weight: 500;
-    font-sizght: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+/* Section Three */
 .section-three {
     background-color: #f4f4fd;
 }
@@ -133,16 +162,8 @@ e: 20px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.four-h-two {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 
-}
-
+/* Section Four */
 .four-h {
     font-size: 20px;
     font-weight: 500;
@@ -153,11 +174,22 @@ e: 20px;
     color: #2e2f42;
 }
 
+.four-h-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .four-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* Footer */
 footer {
     background-color: #2e2f42;
 }
@@ -165,38 +197,9 @@ footer {
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 
 .studio_s {
     color: #f4f4fd;
-}
-img {
-    display: block;
-}
-.top-nav_bar {
-    border-bottom: 1px solid #e7e9fc;
-}
-.div-header {
-    display: flex;
-}
-.container{
-    padding: 0 15px;
-    width:1158px;
-    margin: 0 auto;
-}
-.studio-logo{
-    display: flex;
-    align-items: center;
-}
-.nav-list{
-    display: flex;
-    gap: 40px;
-}
-.nav-adress{
-    display:flex;
-    gap: 40px;
-}
-.nav-list li:first-child {
-    padding: 24px 0;
 }
