@@ -39,6 +39,8 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .studio-s {
@@ -248,10 +250,15 @@ footer {
     background-color: #2e2f42;
 }
 
+.footer-class{
+    padding: 100px 0;
+}
+
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .studio_s {
