@@ -145,6 +145,31 @@ img {
 .section-h-two{
     margin-bottom: 8px;
 }
+
+.visually-hidden{
+    
+            position: absolute;
+            /* Elemanı normal akıştan çıkarır */
+            width: 1px;
+            /* Görsel olarak küçültür */
+            height: 1px;
+            /* Görsel olarak küçültür */
+            margin: -1px;
+            /* Kenarlık ve boşlukları gizler */
+            padding: 0;
+            /* Dolguyu kaldırır */
+            overflow: hidden;
+            /* Taşan içeriği gizler */
+            clip: rect(0, 0, 0, 0);
+            /* Görüntüyü keser */
+            clip-path: inset(50%);
+            /* Daha modern bir yöntem */
+            white-space: nowrap;
+            /* Satır kaymasını engeller */
+            border: 0;
+            /* Kenarlıkları kaldırır */
+        
+}
 /* Section Three */
 .section-three {
     background-color: #f4f4fd;
