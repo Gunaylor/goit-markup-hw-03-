@@ -46,6 +46,7 @@ body {
 }
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 
 }
 
@@ -55,6 +56,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .order-bt {
@@ -66,8 +68,20 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+e: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
+.sections_li p {
+    line-hei
 .order-bt:hover {
     background-color: #404BBF;
 }
@@ -78,14 +92,7 @@ body {
 
 .sections_li h3 {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.sections_li p {
-    line-height: 1.5;
+    font-sizght: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
