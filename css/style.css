@@ -195,6 +195,10 @@ img {
 }
 
 /* Section Four */
+.section-four{
+    padding: 120px 0;
+}
+
 .four-h {
     font-size: 20px;
     font-weight: 500;
