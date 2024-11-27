@@ -189,6 +189,7 @@ img {
 .nav-adress{
     display:flex;
     gap: 40px;
-}.nav-list li{
+}
+.nav-list li:first-child {
     padding: 24px 0;
 }
