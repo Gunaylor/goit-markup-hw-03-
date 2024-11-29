@@ -281,6 +281,3 @@ footer {
 .studio_s {
     color: #f4f4fd;
 }
-.list-item{
-    width: calc((100%-72px) / 4);
-}
