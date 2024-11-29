@@ -149,26 +149,16 @@ img {
 .visually-hidden{
     
             position: absolute;
-            /* Elemanı normal akıştan çıkarır */
             width: 1px;
-            /* Görsel olarak küçültür */
             height: 1px;
-            /* Görsel olarak küçültür */
             margin: -1px;
-            /* Kenarlık ve boşlukları gizler */
             padding: 0;
-            /* Dolguyu kaldırır */
             overflow: hidden;
-            /* Taşan içeriği gizler */
             clip: rect(0, 0, 0, 0);
-            /* Görüntüyü keser */
-            clip-path: inset(50%);
-            /* Daha modern bir yöntem */
+            clip-path: inset(100%);
             white-space: nowrap;
-            /* Satır kaymasını engeller */
             border: 0;
-            /* Kenarlıkları kaldırır */
-        
+
 }
 /* Section Three */
 .section-three {
@@ -236,7 +226,7 @@ img {
 }
 
 .four-li{
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 .apps {
@@ -290,4 +280,7 @@ footer {
 
 .studio_s {
     color: #f4f4fd;
+}
+.list-item{
+    width: calc((100%-72px) / 4);
 }
